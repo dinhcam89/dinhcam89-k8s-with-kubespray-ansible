@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/"          
+            --baseURL "https://dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/vi/1-terraform-for-infra/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -69,7 +69,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible
+      url: https://dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/vi/1-terraform-for-infra/
     runs-on: ubuntu-latest
     needs: build
     steps:
