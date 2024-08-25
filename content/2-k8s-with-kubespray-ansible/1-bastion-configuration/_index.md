@@ -14,7 +14,7 @@ In this step, we will configure the Bastion Instance to prepare for deploying th
 
 - After applying the Terraform configuration files, an SSH key file ".pem" will be created in the directory containing the Terraform files. This key is the one we configured in the ***key.tf*** file for Terraform to create, and it will be used to SSH into the Bastion Instance.
 - SSH into the Bastion Instance for configuration.
-![SSH Bastion](./images/2.1-bastion/ssh-bastion.png)
+![SSH Bastion](./images/2.1-bastion/ssh-bastion.PNG)
 - Configure the hostname on the Bastion machine to simplify SSH operations and make it easier to remember, rather than using the IP addresses of the Instances.
 - Add the private IP addresses and names of the nodes to the /etc/hosts file.
 
