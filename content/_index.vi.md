@@ -12,7 +12,7 @@ _Lời đầu tiên, cho phép em/mình xin chào tất cả các anh/chị, cá
  
 Trong bài lab này, mình sẽ thực hiện triển khai một Kubernetes cluster trên môi trường AWS một cách thủ công với **kubespray** và các máy chủ EC2
 
-![architecture](./static/images/1-terraform/architecture2.png)
+![architecture](../static/images/1-terraform/architecture2.png)
 
 {{% notice note %}}
 Để có thể thực hiện bài LAB này, các bạn cần có tài khoản AWS để tạo các máy chủ EC2 và các tài nguyên cần thiết để triển khai Kubernetes Cluster, sau khi hoàn thành bài LAB thì các bạn có thể xóa các tài nguyên trên AWS đi để tránh tốn thêm chi phí.
