@@ -63,10 +63,10 @@ ansible-playbook -i inventory/mycluster/hosts.ini  --become --become-user=root c
 The installation process may take 15-20 minutes.
 {{%/notice%}}
 
-![ansible](./images/2.2-kubespray/install-spray.PNG)
+![ansible](../../images/2.2-kubespray/install-spray.PNG)
 
 - Result after successful installation:
-![ansible](./images/2.2-kubespray/install-result.PNG)
+![ansible](../../images/2.2-kubespray/install-result.PNG)
 
 - Next, we need to configure kubectl before we can start using the K8s Cluster:
 
@@ -77,6 +77,6 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
 - Configuring kubectl:
-![ansible](./images/2.2-kubespray/kubectl.PNG)
+![ansible](../../images/2.2-kubespray/kubectl.PNG)
 
 - And that's it! We have successfully installed a Kubernetes cluster with Kubespray and Ansible. With this manual deployment method, adding, removing, or modifying nodes in the cluster is quite straightforward, depending on the needs and objectives at any given time.

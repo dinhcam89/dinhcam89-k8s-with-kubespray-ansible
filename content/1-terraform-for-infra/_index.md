@@ -438,11 +438,11 @@ resource "aws_key_pair" "k8_ssh" {
 #### Apply cấu hình lên AWS
 
 - After configuring the Terraform files, use the commands **terraform init** and **terraform apply** to apply the resource configurations to the AWS infrastructure.
-![Image](./images/1-terraform/terraform-init.png)
+![Image](../images/1-terraform/terraform-init.PNG)
 
 - Successful apply results
 
-![Image](./images/1-terraform/terraform-apply.png)
+![Image](../images/1-terraform/terraform-apply.PNG)
 
-![Image](./images/1-terraform/aws-instances.png)
+![Image](../images/1-terraform/aws-instances.PNG)
 
