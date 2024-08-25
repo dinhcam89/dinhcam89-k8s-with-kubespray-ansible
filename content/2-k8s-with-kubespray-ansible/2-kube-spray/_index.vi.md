@@ -8,12 +8,6 @@ pre = "<b>2.2. </b>"
 
 **Nội dung**
 - [Cài đặt K8s Cluster với Kubespray và Ansible](#cài-đặt-k8s-cluster-với-kubespray-và-ansible)
-
-
-{{%notice tip%}}
-Nếu bạn không có thiết bị phần cứng , có thể bỏ qua các thao tác dưới đây nhé.
-{{%/notice%}}
-
 #### Cài đặt K8s Cluster với Kubespray và Ansible
 - Sau khi đã cài đặt thành công Ansible và Kubespray, chúng ta sẽ thực hiện cài đặt K8s Cluster.
 - Ở thư mục chứa source code của Kubespray, các bạn hãy tạo một file mới **hosts.ini** trong đường dẫn ***kubespray/inventory/mycluster/hosts.ini***
