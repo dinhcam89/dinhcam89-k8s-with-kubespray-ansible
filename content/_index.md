@@ -12,7 +12,7 @@ _First of all, let me say hello to all of you. This is my first workshop, so the
 
 In this lab, we will manually deploy a Kubernetes cluster on AWS using **kubespray** and EC2 instances.
 
-![architecture](/images/1-terraform/architecture2.png)
+![architecture](./images/1-terraform/architecture2.png)
 
 {{% notice note %}}
 To perform this LAB, you need an AWS account to create EC2 instances and the necessary resources to deploy the Kubernetes Cluster. After completing the LAB, you can delete these resources on AWS to avoid additional costs.
