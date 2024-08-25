@@ -9,7 +9,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = "https://dinhcam89.github.io/"
+  editURL = ""
   description = ""
   author = "journeyoftheaverageguy@gmail.com"
   showVisitedLinks = true
