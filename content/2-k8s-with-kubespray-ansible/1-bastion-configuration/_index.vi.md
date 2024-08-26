@@ -14,7 +14,7 @@ Trong bước này, chúng ta sẽ thực hiện cấu hình Bastion Instance đ
 
 - Sau khi đã apply xong các file cấu hình Terraform, một file SSH key ".pem" sẽ được tạo ra trong thư mục chứa các file Terraform, đây chính là key mà chúng ta đã cấu hình để Terraform thực hiện tạo trong file **key.tf**, và dùng để SSH vào Bastion Instance.
 - Thực hiện SSH vào Bastion Instance để cấu hình
-![SSH Bastion](./images/2.1-bastion/ssh-bastion.PNG)
+![SSH Bastion](../../images/2.1-bastion/ssh-bastion.PNG)
 - Thực hiện cấu hình hostname trên máy Bastion để thuận tiện cho các thao tác SSH cũng như để dễ gợi nhớ hơn, thay vì phải sử dụng IP của các Instance.
 - Cấu hình thêm địa chỉ IP private và tên của các nodes vào file ***/etc/hosts***
 
