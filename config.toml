@@ -21,7 +21,6 @@ home = [ "HTML", "RSS", "JSON"]
 title = "AWS Account Setup"
 weight = 1
 languageName = "English"
-baseURL = "dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/"
 
 
 [[Languages.en.menu.shortcuts]]
@@ -34,7 +33,7 @@ weight = 20
 title = "Thiết lập AWS Account"
 weight = 2
 languageName = "Tiếng Việt"
-baseURL = "dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/vi/"
+baseURL = "dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/"
 
 
 [[Languages.vi.menu.shortcuts]]
