@@ -33,8 +33,6 @@ weight = 20
 title = "Thiết lập AWS Account"
 weight = 2
 languageName = "Tiếng Việt"
-baseURL = "dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/"
-
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
