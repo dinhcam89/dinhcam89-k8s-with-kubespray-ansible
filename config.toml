@@ -21,6 +21,8 @@ home = [ "HTML", "RSS", "JSON"]
 title = "AWS Account Setup"
 weight = 1
 languageName = "English"
+baseURL = "https://dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/"
+
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
@@ -32,6 +34,8 @@ weight = 20
 title = "Thiết lập AWS Account"
 weight = 2
 languageName = "Tiếng Việt"
+baseURL = "https://dinhcam89.github.io/dinhcam89-k8s-with-kubespray-ansible/"
+
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
