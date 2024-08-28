@@ -59,10 +59,10 @@ ansible-playbook -i inventory/mycluster/hosts.ini  --become --become-user=root c
 Quá trình cài đặt có thể kéo dài từ 15-20p
 {{%/notice%}}
 
-![ansible](../../images/2.2-kubespray/install-spray.PNG)
+{{< figure src="https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/blob/main/static/images/2.2-kubespray/install-spray.PNG?raw=true" title="Install Spray" alt="Install Spray" >}}
 
 - Kết quả sau khi cài đặt thành công
-![ansible](../../images/2.2-kubespray/install-result.PNG)
+{{< figure src="https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/blob/main/static/images/2.2-kubespray/install-result.PNG?raw=true" title="Install Result" alt="Install Result" >}}
 
 - Tiếp theo chúng ta cần cấu hình kubectl trước khi có thể bắt đầu vào sử dụng K8s Cluster
 
@@ -73,6 +73,6 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
 - Cấu hình kubectl
-![ansible](../../images/2.2-kubespray/kubectl.PNG)
+{{< figure src="https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/blob/main/static/images/2.2-kubespray/kubectl.PNG?raw=true" title="Kubectl configuration" alt="Kubectl configuration" >}}
 
 - Vậy là chúng ta đã cài đặt thành công một cụm Kubernetes cluster với Kubespray và Ansible, với việc triển khai thủ công theo cách này thì việc chúng ta thêm, xóa, sửa các node trong cluster rất dễ dàng tùy thuộc vào nhu cầu và mục đích sử dụng của từng thời điểm.
