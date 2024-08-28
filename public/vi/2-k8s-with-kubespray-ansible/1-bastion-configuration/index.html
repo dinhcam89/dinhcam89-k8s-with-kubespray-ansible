@@ -12,21 +12,21 @@
     <title>Cấu hình Bastion Instance :: Thiết lập AWS Account</title>
 
     
-    <link href="/css/nucleus.css?1724678235" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1724678235" rel="stylesheet">
-    <link href="/css/hybrid.css?1724678235" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1724678235" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1724678235" rel="stylesheet">
-    <link href="/css/auto-complete.css?1724678235" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1724678235" rel="stylesheet">
-    <link href="/css/theme.css?1724678235" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1724678235" rel="stylesheet">
+    <link href="/css/nucleus.css?1724862560" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1724862560" rel="stylesheet">
+    <link href="/css/hybrid.css?1724862560" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1724862560" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1724862560" rel="stylesheet">
+    <link href="/css/auto-complete.css?1724862560" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1724862560" rel="stylesheet">
+    <link href="/css/theme.css?1724862560" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1724862560" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1724678235" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1724862560" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1724678235"></script>
+    <script src="/js/jquery-3.3.1.min.js?1724862560"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1724678235"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1724678235"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1724862560"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1724862560"></script>
 <script type="text/javascript">
     
         var baseurl = "\/\/localhost:1313\/\/vi";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1724678235"></script>
+<script type="text/javascript" src="/js/search.js?1724862560"></script>
 
     
   </div>
@@ -410,11 +410,24 @@
 
 <h4 id="cấu-hình-các-instance">Cấu hình các Instance</h4>
 <ul>
-<li>Sau khi đã apply xong các file cấu hình Terraform, một file SSH key &ldquo;.pem&rdquo; sẽ được tạo ra trong thư mục chứa các file Terraform, đây chính là key mà chúng ta đã cấu hình để Terraform thực hiện tạo trong file <strong>key.tf</strong>, và dùng để SSH vào Bastion Instance.</li>
-<li>Thực hiện SSH vào Bastion Instance để cấu hình
-<img alt="SSH Bastion" src="./static/images/2.1-bastion/ssh-bastion.PNG"></li>
-<li>Thực hiện cấu hình hostname trên máy Bastion để thuận tiện cho các thao tác SSH cũng như để dễ gợi nhớ hơn, thay vì phải sử dụng IP của các Instance.</li>
-<li>Cấu hình thêm địa chỉ IP private và tên của các nodes vào file <em><strong>/etc/hosts</strong></em></li>
+<li>
+<p>Sau khi đã apply xong các file cấu hình Terraform, một file SSH key &ldquo;.pem&rdquo; sẽ được tạo ra trong thư mục chứa các file Terraform, đây chính là key mà chúng ta đã cấu hình để Terraform thực hiện tạo trong file <strong>key.tf</strong>, và dùng để SSH vào Bastion Instance.</p>
+</li>
+<li>
+<p>Thực hiện SSH vào Bastion Instance để cấu hình
+<figure><img src="https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/blob/main/static/images/2.1-bastion/ssh-bastion.PNG?raw=true"
+    alt="SSH Bastion"><figcaption>
+      <h4>SSH Bastion</h4>
+    </figcaption>
+</figure>
+</p>
+</li>
+<li>
+<p>Thực hiện cấu hình hostname trên máy Bastion để thuận tiện cho các thao tác SSH cũng như để dễ gợi nhớ hơn, thay vì phải sử dụng IP của các Instance.</p>
+</li>
+<li>
+<p>Cấu hình thêm địa chỉ IP private và tên của các nodes vào file <em><strong>/etc/hosts</strong></em></p>
+</li>
 </ul>
 <ol>
 <li>Cấu hình hostname</li>
@@ -610,19 +623,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1724678235"></script>
-    <script src="/js/perfect-scrollbar.min.js?1724678235"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1724678235"></script>
-    <script src="/js/jquery.sticky.js?1724678235"></script>
-    <script src="/js/featherlight.min.js?1724678235"></script>
-    <script src="/js/highlight.pack.js?1724678235"></script>
+    <script src="/js/clipboard.min.js?1724862560"></script>
+    <script src="/js/perfect-scrollbar.min.js?1724862560"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1724862560"></script>
+    <script src="/js/jquery.sticky.js?1724862560"></script>
+    <script src="/js/featherlight.min.js?1724862560"></script>
+    <script src="/js/highlight.pack.js?1724862560"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1724678235"></script>
-    <script src="/js/learn.js?1724678235"></script>
-    <script src="/js/hugo-learn.js?1724678235"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1724862560"></script>
+    <script src="/js/learn.js?1724862560"></script>
+    <script src="/js/hugo-learn.js?1724862560"></script>
 
-    <link href="/mermaid/mermaid.css?1724678235" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1724678235"></script>
+    <link href="/mermaid/mermaid.css?1724862560" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1724862560"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
