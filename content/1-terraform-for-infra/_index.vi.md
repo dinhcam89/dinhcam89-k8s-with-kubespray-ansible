@@ -443,10 +443,10 @@ resource "aws_key_pair" "k8_ssh" {
 #### Apply cấu hình lên AWS
 
 - Sau khi đã cấu hình các file Terraform, ta sử dụng câu lệnh **terraform init** và **terraform apply** để áp dụng các cấu hình tài nguyên lên hạ tầng AWS
-![Image-en](../images/1-terraform/terraform-init.PNG)
+{{< figure src="https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/blob/main/static/images/1-terraform/terraform-init.PNG?raw=true" title="Terraform Init" alt="Terraform Init" >}}
 
 - Kết quả apply thành công
-![Image-en](../images/1-terraform/terraform-apply.PNG)
+{{< figure src="https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/blob/main/static/images/1-terraform/terraform-apply.PNG?raw=true" title="Terraform Apply" alt="Terraform Apply" >}}
 
-![Image-en](../images/1-terraform/aws-instances.PNG)
+{{< figure src="https://github.com/dinhcam89/dinhcam89-k8s-with-kubespray-ansible/blob/main/static/images/1-terraform/aws-instances.PNG?raw=true" title="Apply Result" alt="Apply Result" >}}
 
