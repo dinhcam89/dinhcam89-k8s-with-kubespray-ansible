@@ -14,7 +14,7 @@ pre = "<b>2.2. </b>"
 - After successfully installing Ansible and Kubespray, we will proceed with installing the K8s Cluster.
 - In the directory containing the Kubespray source code, create a new file named **hosts.ini** in the path ***kubespray/inventory/mycluster/hosts.ini***
 - Essentially, this file contains definitions of the Nodes, which nodes are Master, which nodes are Worker, their IP addresses, etc.
--This host file also has a sample file available on the [Github của Kubespray](https://github.com/kubernetes-sigs/kubespray), which you can download and modify according to your configuration. Below is my hosts.ini file for reference:
+-This host file also has a sample file available on the [Kubespray's Github](https://github.com/kubernetes-sigs/kubespray), which you can download and modify according to your configuration. Below is my hosts.ini file for reference:
 ```ini
 ## Configure 'ip' variable to bind kubernetes services on a
 ## different ip than the default iface
