@@ -283,6 +283,8 @@ resource "aws_security_group" "k8_workers" {
 ```
 
 File `4-load-balancers.tf`:
+- This file defines resources related to Load Balancer (LB) for Master Nodes in the Kubernetes Cluster on AWS. If you want to save costs on making LAB, you can use only Master and skip this LoadBalancer file.
+- 
 ```terraform
 
 resource "aws_lb" "k8_masters_lb" {
@@ -332,6 +334,7 @@ resource "aws_lb_target_group_attachment" "k8_masters_attachment" {
 ```
 
 File `5-vars.tf`:
+- This file defines the variables that we will pass into other .tf files. The purpose is to make it easier to change and edit these parameters, instead of everyone having to search for each place containing the variable "x " To change the value, we only need to change it in one place in this "var.tf" file.
 ```terraform
 
 variable "region" {

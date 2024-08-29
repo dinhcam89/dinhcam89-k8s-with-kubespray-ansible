@@ -285,8 +285,9 @@ resource "aws_security_group" "k8_workers" {
 ```
 
 File `4-load-balancers.tf`:
-```terraform
+- File này định nghĩa các tài nguyên liên quan đến Load Balancer (LB) cho các Master Node trong Kubernetes Cluster trên AWS, nếu các bạn muốn tiết kiệm chi phí làm LAB thì có thể dùng một Master duy nhất và bỏ qua file LoadBalancer này.
 
+```terraform
 resource "aws_lb" "k8_masters_lb" {
     name        = "k8-masters-lb"
     internal    = true
@@ -298,9 +299,6 @@ resource "aws_lb" "k8_masters_lb" {
   }
   
 }
-
-# target_type instance not working well when we bound this LB as a control-plane-endpoint. hence had to use IP target_type
-#https://stackoverflow.com/questions/56768956/how-to-use-kubeadm-init-configuration-parameter-controlplaneendpoint/70799078#70799078
 
 resource "aws_lb_target_group" "k8_masters_api" {
     name = "k8-masters-api"
@@ -337,6 +335,8 @@ resource "aws_lb_target_group_attachment" "k8_masters_attachment" {
 ```
 
 File `5-vars.tf`:
+- File này định nghĩa các biến mà ta sẽ truyền vào các file .tf khác, mục đích là để dễ dàng hơn trong việc thay đổi, chỉnh sửa các thông số này, thay vì mọi người phải đi tìm từng chỗ chứa biến "x" để thay đổi giá trị thì chúng ta chỉ cần thay đổi ở một chỗ duy nhất trong chính file "var.tf" này.
+
 ```terraform
 
 variable "region" {
